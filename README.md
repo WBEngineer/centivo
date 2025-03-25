@@ -1,0 +1,3 @@
+### Node.js API with MongoDB
+This project is a simple Node.js Express API that connects to a MongoDB database to retrieve user data.
+The API includes a GET endpoint `/users/:id`, which fetches a user by their ID but only if their age is greater than 21. The implementation includes error handling for invalid ObjectId formats and missing users. The MongoDB connection is configured using an environment variable for flexibility.
